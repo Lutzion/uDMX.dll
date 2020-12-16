@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: uDMX - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/uDMX.res" /d "NDEBUG" "C:\Projekte\uDMX\Driver_dll_V3.0\uDMX.rc"" 
+Erstellen der temporären Datei  "C:\Users\lutz\AppData\Local\Temp\RSP31A1.tmp" mit Inhalten
+[
+/nologo /MT /W3 /GX /O2 /I "C:\Projekte\SDKs\LibUSB\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "UDMX_EXPORTS" /Fp"Release/uDMX.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Projekte\uDMX\Driver_dll_V3.0\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lutz\AppData\Local\Temp\RSP31A1.tmp" 
+Erstellen der temporären Datei  "C:\Users\lutz\AppData\Local\Temp\RSP31A2.tmp" mit Inhalten
+[
+/nologo /MT /W3 /GX /O2 /I "C:\Projekte\SDKs\LibUSB\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "UDMX_EXPORTS" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Projekte\uDMX\Driver_dll_V3.0\uDMX.cpp"
+"C:\Projekte\uDMX\Driver_dll_V3.0\uDMX_fkt.cpp"
+]
+Creating command line "cl.exe @C:\Users\lutz\AppData\Local\Temp\RSP31A2.tmp" 
+Erstellen der temporären Datei  "C:\Users\lutz\AppData\Local\Temp\RSP31A3.tmp" mit Inhalten
+[
+libusb.lib hashlibpp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Release/uDMX.pdb" /machine:I386 /def:".\uDMX.def" /out:"C:\Windows\System32\uDMX.dll" /implib:"Release/uDMX.lib" /libpath:"C:\Projekte\SDKs\LibUSB\lib\msvc" 
+.\Release\StdAfx.obj
+.\Release\uDMX.obj
+.\Release\uDMX_fkt.obj
+.\Release\uDMX.res
+]
+Erstellen der Befehlzeile "link.exe @C:\Users\lutz\AppData\Local\Temp\RSP31A3.tmp"
+<h3>Ausgabefenster</h3>
+Ressourcen werden kompiliert...
+Kompilierung läuft...
+StdAfx.cpp
+Kompilierung läuft...
+uDMX.cpp
+uDMX_fkt.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+   Bibliothek Release/uDMX.lib und Objekt Release/uDMX.exp wird erstellt
+
+
+
+<h3>Ergebnisse</h3>
+uDMX.dll - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

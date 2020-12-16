@@ -1,0 +1,19 @@
+;------------------------------
+; Modul-Definition for uDMX
+;------------------------------
+LIBRARY			  uDMX
+
+DESCRIPTION		  'uDMX-DLL (c), ilLUTZminator, 2011'
+;EXETYPE		  WINDOWS
+;CODE			  PRELOAD MOVEABLE DISCARDABLE
+;DATA			  PRELOAD MOVEABLE SINGLE
+HEAPSIZE		  1024
+
+EXPORTS
+  ;uDMXOpen			@1
+  ;uDMXClose		@2
+  ChannelSet        @3
+  ChannelsSet       @4
+  Configure         @5
+  Connected			@6
+  ConfigureModal    @7
